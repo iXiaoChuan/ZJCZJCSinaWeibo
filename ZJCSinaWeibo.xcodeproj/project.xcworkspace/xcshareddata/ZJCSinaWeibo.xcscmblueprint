@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE3172E0AC93D36C2FD579A8E69E215611D12795",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE3172E0AC93D36C2FD579A8E69E215611D12795" : 9223372036854775807,
+    "993D0162C8AC95DD5EA3815CDA0CAFC9788AE31D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E8D79455-88E6-4644-B5D6-9E2C69EE0FFB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE3172E0AC93D36C2FD579A8E69E215611D12795" : "ZJCSinaWeibo\/",
+    "993D0162C8AC95DD5EA3815CDA0CAFC9788AE31D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZJCSinaWeibo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZJCSinaWeibo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iXiaoChuan\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "993D0162C8AC95DD5EA3815CDA0CAFC9788AE31D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:iXiaoChuan\/ZJCZJCSinaWeibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE3172E0AC93D36C2FD579A8E69E215611D12795"
+    }
+  ]
+}
