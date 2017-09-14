@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377741AD1F6A0F1300B9B3A6 /* ZJCTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741AC1F6A0F1300B9B3A6 /* ZJCTabbarController.swift */; };
+		377741AF1F6A0F2700B9B3A6 /* ZJCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741AE1F6A0F2700B9B3A6 /* ZJCNavigationController.swift */; };
+		377741B11F6A0F5200B9B3A6 /* ZJCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741B01F6A0F5200B9B3A6 /* ZJCBaseViewController.swift */; };
+		377741B31F6A0FDB00B9B3A6 /* ZJCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741B21F6A0FDB00B9B3A6 /* ZJCHomeViewController.swift */; };
+		377741B51F6A0FE500B9B3A6 /* ZJCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741B41F6A0FE500B9B3A6 /* ZJCMessageViewController.swift */; };
+		377741B71F6A0FEF00B9B3A6 /* ZJCDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741B61F6A0FEF00B9B3A6 /* ZJCDiscoveryViewController.swift */; };
+		377741B91F6A0FF800B9B3A6 /* ZJCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377741B81F6A0FF800B9B3A6 /* ZJCProfileViewController.swift */; };
 		37DA4FCA1F3DA40800226837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA4FC91F3DA40800226837 /* AppDelegate.swift */; };
-		37DA4FCC1F3DA40800226837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA4FCB1F3DA40800226837 /* ViewController.swift */; };
-		37DA4FCF1F3DA40800226837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DA4FCD1F3DA40800226837 /* Main.storyboard */; };
 		37DA4FD11F3DA40800226837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DA4FD01F3DA40800226837 /* Assets.xcassets */; };
 		37DA4FD41F3DA40800226837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DA4FD21F3DA40800226837 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		377741AC1F6A0F1300B9B3A6 /* ZJCTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCTabbarController.swift; sourceTree = "<group>"; };
+		377741AE1F6A0F2700B9B3A6 /* ZJCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCNavigationController.swift; sourceTree = "<group>"; };
+		377741B01F6A0F5200B9B3A6 /* ZJCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCBaseViewController.swift; sourceTree = "<group>"; };
+		377741B21F6A0FDB00B9B3A6 /* ZJCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCHomeViewController.swift; sourceTree = "<group>"; };
+		377741B41F6A0FE500B9B3A6 /* ZJCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCMessageViewController.swift; sourceTree = "<group>"; };
+		377741B61F6A0FEF00B9B3A6 /* ZJCDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCDiscoveryViewController.swift; sourceTree = "<group>"; };
+		377741B81F6A0FF800B9B3A6 /* ZJCProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCProfileViewController.swift; sourceTree = "<group>"; };
 		37DA4FC61F3DA40800226837 /* ZJCSinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJCSinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DA4FC91F3DA40800226837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37DA4FCB1F3DA40800226837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37DA4FCE1F3DA40800226837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37DA4FD01F3DA40800226837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37DA4FD31F3DA40800226837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37DA4FD51F3DA40800226837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +45,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		377741A21F6A0EA400B9B3A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				377741A51F6A0EA400B9B3A6 /* View(视图和控制器) */,
+				377741AB1F6A0EA400B9B3A6 /* ViewModel(视图模型) */,
+				377741A31F6A0EA400B9B3A6 /* Model(数据模型) */,
+				377741A41F6A0EA400B9B3A6 /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		377741A31F6A0EA400B9B3A6 /* Model(数据模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(数据模型)";
+			sourceTree = "<group>";
+		};
+		377741A41F6A0EA400B9B3A6 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		377741A51F6A0EA400B9B3A6 /* View(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				377741A81F6A0EA400B9B3A6 /* Main */,
+				377741A71F6A0EA400B9B3A6 /* Home */,
+				377741A91F6A0EA400B9B3A6 /* Message */,
+				377741A61F6A0EA400B9B3A6 /* Discovery */,
+				377741AA1F6A0EA400B9B3A6 /* Profile */,
+			);
+			path = "View(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		377741A61F6A0EA400B9B3A6 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				377741B61F6A0FEF00B9B3A6 /* ZJCDiscoveryViewController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		377741A71F6A0EA400B9B3A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				377741B21F6A0FDB00B9B3A6 /* ZJCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		377741A81F6A0EA400B9B3A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				377741AC1F6A0F1300B9B3A6 /* ZJCTabbarController.swift */,
+				377741AE1F6A0F2700B9B3A6 /* ZJCNavigationController.swift */,
+				377741B01F6A0F5200B9B3A6 /* ZJCBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		377741A91F6A0EA400B9B3A6 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				377741B41F6A0FE500B9B3A6 /* ZJCMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		377741AA1F6A0EA400B9B3A6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				377741B81F6A0FF800B9B3A6 /* ZJCProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		377741AB1F6A0EA400B9B3A6 /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel(视图模型)";
+			sourceTree = "<group>";
+		};
 		37DA4FBD1F3DA40800226837 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +150,8 @@
 		37DA4FC81F3DA40800226837 /* ZJCSinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				377741A21F6A0EA400B9B3A6 /* Classes */,
 				37DA4FC91F3DA40800226837 /* AppDelegate.swift */,
-				37DA4FCB1F3DA40800226837 /* ViewController.swift */,
-				37DA4FCD1F3DA40800226837 /* Main.storyboard */,
 				37DA4FD01F3DA40800226837 /* Assets.xcassets */,
 				37DA4FD21F3DA40800226837 /* LaunchScreen.storyboard */,
 				37DA4FD51F3DA40800226837 /* Info.plist */,
@@ -90,6 +185,7 @@
 		37DA4FBE1F3DA40800226837 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJC;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = sposter.net;
@@ -126,7 +222,6 @@
 			files = (
 				37DA4FD41F3DA40800226837 /* LaunchScreen.storyboard in Resources */,
 				37DA4FD11F3DA40800226837 /* Assets.xcassets in Resources */,
-				37DA4FCF1F3DA40800226837 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +232,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DA4FCC1F3DA40800226837 /* ViewController.swift in Sources */,
+				377741B91F6A0FF800B9B3A6 /* ZJCProfileViewController.swift in Sources */,
+				377741B31F6A0FDB00B9B3A6 /* ZJCHomeViewController.swift in Sources */,
+				377741AD1F6A0F1300B9B3A6 /* ZJCTabbarController.swift in Sources */,
 				37DA4FCA1F3DA40800226837 /* AppDelegate.swift in Sources */,
+				377741AF1F6A0F2700B9B3A6 /* ZJCNavigationController.swift in Sources */,
+				377741B71F6A0FEF00B9B3A6 /* ZJCDiscoveryViewController.swift in Sources */,
+				377741B51F6A0FE500B9B3A6 /* ZJCMessageViewController.swift in Sources */,
+				377741B11F6A0F5200B9B3A6 /* ZJCBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37DA4FCD1F3DA40800226837 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37DA4FCE1F3DA40800226837 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37DA4FD21F3DA40800226837 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,8 +354,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q775ZXKAM6;
 				INFOPLIST_FILE = ZJCSinaWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sposter.ZJCSinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,8 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q775ZXKAM6;
 				INFOPLIST_FILE = ZJCSinaWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sposter.ZJCSinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +399,7 @@
 				37DA4FDA1F3DA40800226837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
